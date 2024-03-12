@@ -10,6 +10,7 @@ body {
     font-size: 15px;
     font-weight: normal;
     color: hsl(0, 0%, 90%);
+ 
 }
 
 @font-face {
@@ -242,13 +243,14 @@ body {
 }
 
 .hero-content .entry-header h2 {
-    padding: 50px;
+    padding: 20px;
     margin: 0;
     font-family: mountains;
-    font-size:120px;
+    font-size:50px;
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: auto;
 }
 
 .hero-content .entry-header .entry-meta-date {
@@ -262,15 +264,19 @@ body {
     text-align: center;
 }
 
-@media screen and (min-width: 992px) {
-    .hero-content .entry-header h2 {
-        font-size: 172px;
-    }
+
+    @media  (min-width: 1000px){
+        .hero-content .entry-header h2  {
+            font-size: 150px;
+            padding-top: 70px;
+        }    
+        } 
+
 
     .hero-content .entry-header .entry-meta-date {
         top: 60px;
     }
-}
+
 
 /*------------------------------------------------------------
 ## countdown
@@ -831,7 +837,7 @@ body {
 }
 
 .site-footer .footer-cover-title {
-    min-height: 480px;
+    min-height: 400px;
     width: 100%;
 }
 
@@ -845,6 +851,8 @@ body {
     mix-blend-mode: overlay;
     z-index: 2;
 }
+
+
 
 /*------------------------------------------------------------
 ## .site-footer footer-content-wrapper
@@ -933,17 +941,7 @@ body {
 /*------------------------------------------------------------
 # site-header
 ------------------------------------------------------------*/
-.about-us .site-header {
-}
 
-.about-us .site-header figure {
-    margin: 0;
-    padding: 0;
-}
-
-.about-us .site-header figure img {
-    max-width: 100%;
-}
 
 /*------------------------------------------------------------
 ## Page Header
@@ -1918,6 +1916,8 @@ body {
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: auto;
+    
 }
 
 .icon-box .entry-header .entry-title {
@@ -1956,7 +1956,12 @@ body {
     
 }
 
-
+@media screen and (max-width: 900px) {
+    .lineup-artists .mapouter  {
+        width: 300;
+        height: auto;
+    }
+}
 
 
 
