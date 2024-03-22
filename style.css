@@ -233,7 +233,7 @@ body {
 -----------------------------------------------------------*/
 .hero-content {
     padding: 220px 0;
-    background: url("images/fondo5.jpg") no-repeat;
+    background: url("images/micaymariano42.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -1966,3 +1966,4 @@ body {
 
 
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
